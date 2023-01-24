@@ -6,7 +6,7 @@
 
 > Site no ar: https://desafio-squid-by-agathamagnus.vercel.app/
 
-> Resultado: 
+# Resultado: 
 
 
 https://user-images.githubusercontent.com/85269068/214356845-c221ee8f-8e2e-4d1c-bcc4-5e837eb43612.mp4
