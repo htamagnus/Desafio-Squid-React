@@ -2,9 +2,28 @@
 
 .card {
   margin-bottom: 15px;
-  cursor: pointer;
   text-decoration: none;
-  transition: 0.3s;
+  position: relative;
+
+  &:hover {
+    p,
+    svg {
+      color: $white-100;
+      z-index: 15;
+    }
+
+    &::after {
+      background-color: rgba(0, 0, 0, 0.5);
+      /* backdrop-filter: blur(4px); */
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: transparent;
+    transition: all ease-in 300ms;
+  }
 }
 
 .cardElements {
@@ -13,31 +32,12 @@
   justify-content: center;
   flex-direction: column;
 
-  &:hover {
-    filter: brightness(70%);
-    transition: 0.4s;
-    color: $white-100;
-
-    &:hover:before {
-      opacity: 1;
-    }
-
-    & p,
-    svg {
-      color: $white-100;
-    }
-  }
-
   & p {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3px;
     color: transparent;
-
-    &:hover {
-      text-shadow: 0 0 8px #000;
-    }
   }
 
   & p svg {
@@ -45,3 +45,4 @@
     margin-right: 2px;
   }
 }
+
