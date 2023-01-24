@@ -1,0 +1,9 @@
+@import "../../styles/Variaveis";
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    background-color: $pink-100;
+    color: $white-100;
+}
