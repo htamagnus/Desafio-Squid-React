@@ -16,6 +16,10 @@ https://user-images.githubusercontent.com/85269068/214382288-33f0f12e-4825-43b7-
 ![image](https://user-images.githubusercontent.com/85269068/214362295-b5db7732-06c1-49ea-ae6b-58a8cc854ac1.png)
 
 
+# Load da página
+![load-squid](https://user-images.githubusercontent.com/85269068/214386188-c10c1e05-a5d3-46ec-880e-ec39ad031573.gif)
+
+
 # Responsividade: 
 ![image](https://user-images.githubusercontent.com/85269068/214361515-c31854c4-c60f-42db-bdbb-fb099ad819c0.png)
 
