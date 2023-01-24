@@ -25,8 +25,8 @@ const CardImage = ({ elem }) => {
           height: "150px",
         }}
       >
-        <p id={styles.paragrafo}>@{elem.usuario.username}</p>
-        <p id={styles.paragrafo}>
+        <p>@{elem.usuario.username}</p>
+        <p>
           <AiFillHeart />
           {elem.upvotes}
         </p>
