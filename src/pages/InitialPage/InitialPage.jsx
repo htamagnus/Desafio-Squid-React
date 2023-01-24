@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import CardImage from "../../components/CardImage/CardImage";
 import Logo from "../../components/Logo/Logo";
-import Footer from "../../components/Footer/Footer";
 import styles from "./InitialPage.module.scss";
 
 export default function InitialPage() {
@@ -27,7 +26,6 @@ export default function InitialPage() {
         {list.length === 0 && <div className={styles.spinner}></div>}
         {list && list.map((e, index) => <CardImage elem={e} key={index} />)}
       </div>
-      <Footer/>
     </>
   );
 }
