@@ -1,0 +1,49 @@
+@import "../../styles/Variaveis";
+
+.card {
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cardElements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &:hover {
+    filter: brightness(70%);
+    transition: 0.4s;
+    color: $white-100;
+
+    &:hover:before {
+      opacity: 1;
+    }
+
+    & p,
+    svg {
+      color: $white-100;
+    }
+  }
+
+  & p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    color: transparent;
+
+    &:hover {
+      color: $white-100;
+      text-shadow: 0 0 8px #000;
+
+    }
+  }
+
+  & p svg {
+    color: transparent;
+    margin-right: 2px;
+  }
+}
