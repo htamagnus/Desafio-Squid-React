@@ -30,3 +30,6 @@ https://user-images.githubusercontent.com/85269068/214382288-33f0f12e-4825-43b7-
 # Celular: 
 
 ![image](https://user-images.githubusercontent.com/85269068/214361962-baf48b6c-8d1f-498b-8338-c4634bd59f26.png)
+
+---
+ *Feito com ❤ por Ágatha Magnus* 
