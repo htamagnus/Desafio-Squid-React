@@ -31,5 +31,11 @@ https://user-images.githubusercontent.com/85269068/214382288-33f0f12e-4825-43b7-
 
 ![image](https://user-images.githubusercontent.com/85269068/214361962-baf48b6c-8d1f-498b-8338-c4634bd59f26.png)
 
+
+# Desempenho do site:
+![image](https://user-images.githubusercontent.com/85269068/219791207-3705fdac-9407-4faa-a6b3-42beb0f4e1e8.png)
+
+
+
 ---
  *Feito com ❤ por Ágatha Magnus* 
